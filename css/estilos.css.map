@@ -2,8 +2,7 @@
     "version": 3,
     "mappings": "",
     "sources": [
-        "../scss/estilos.scss",
-        "../scss/_variables.scss"
+        "../scss/estilos.scss"
     ],
     "names": [],
     "file": "estilos.css"
