@@ -1,0 +1,7 @@
+$vista: escritorio;
+
+@if($vista == escritorio){
+    header{
+        background-color: black;
+    }
+}

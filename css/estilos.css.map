@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AAIA,AAAA,MAAM,CAAA;EACF,UAAU,EAAE,oCAAoC;CACnD",
     "sources": [
         "../scss/estilos.scss"
     ],

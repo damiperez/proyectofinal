@@ -1,1 +1,5 @@
-/* No CSS *//*# sourceMappingURL=estilos.css.map */
+header {
+  background: -webkit-gradient(linear, right blue white, );
+  background: linear-gradient(to right blue white);
+}
+/*# sourceMappingURL=estilos.css.map */

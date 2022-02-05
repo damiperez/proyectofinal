@@ -1,0 +1,9 @@
+
+$estilo:(
+    color: green,
+    tamFuente: 50px,
+);
+.card{
+    background-color: map-get($estilo, color, );
+    font-size: map-get($estilo, tamFuente, );
+}
