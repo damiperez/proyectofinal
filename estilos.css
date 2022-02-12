@@ -9,7 +9,7 @@ body{
 }
 
 .header{
-    background-color: blue;
+    background-color: rgb(52, 52, 139);
     height: 80px;
     position: relative;
     width: 100%;
@@ -71,7 +71,7 @@ body{
 /* -------FOOTER------- */
 
 .footer{
-    background-color: blue;
+    background-color: rgb(52, 52, 139);
     padding: 60px 0;
 
 }
