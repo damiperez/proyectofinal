@@ -20,63 +20,31 @@
                 <li class="nav-menu-item"> <a href="./nosotros.html" class="nav-menu-link" > Nosotros</a></li>
                 <li class="nav-menu-item"> <a href="./contacto.html" class="nav-menu-link" >Contacto</a> </li>
                 <li class="nav-menu-item"> <a href="./galeria.html" class="nav-menu-link" > Galeria</a></li>
-    
             </ul>
-    
         </nav>
     </header>
-
-    <section>
-        <div class="contenedor" >
-        <h2 class="contacto" >Contacto</h2>
-        <br>
+    <section class="contactate" >
+        <iframe width="520" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=%20General%20Campos+(general%20campos)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
         <div class="formulario">
-        <fieldset> 
-            <legend>Completa este formulario</legend>
-            <img class="imagen-form" src="./imag/contacto.png" alt="">
-            <br>
-        <form action="">
-            <label for="Nombre"> Nombre</label>
-            <input type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre" required> 
-            <br>
-            <br>
-            <label for="Apellido"> Apellido</label>
-            <input type="text" name="Apellido" id="Apellido" placeholder="Ingresa tu apellido" required>
-            <br>
-            <br>
-            <label for="Nacimiento"> Nacimiento</label>
-            <input type="date" name="nacimiento" id="nacimiento" >
-            <br>
-            <br>
-            <label for="email"> Email</label>
-            <input type="email" name="Email" id="Email" placeholder="Ingresa tu email" required>
-            <br>
-            <br>
-            <label for="Clave"> Contraseña</label>
-            <input type="Password" name="Clave" id="Clave" placeholder="Ingresa tu clave" required>
-            <br><br>
-            <label for="Clave"> Confirma tu contraseña</label>
-            <input type="Password" name=" Confirmar clave" placeholder="Confirma tu clave" required >
-            <br>
-            <br>
-            <label for="Consuta"> Consulta</label>
-            <br>
-            <textarea name="consulta" id="consulta" cols="30" rows="10"></textarea>
-            <br>
-            <input type="submit" value="Enviar consulta">
-            <input type="reset" value="Limpiar formulario">
-            <input type="submit" value="Registrate">
-        </div>
-            </fieldset>
-
-            
-            
-            
-
-        </form>
+            <form action="" method="post">
+                <div class="form-contacto" >
+                    <input type="text" name="Nombre" placeholder="Nombre">
+                </div>
+                <div class="form-contacto" >
+                    <input type="email" name="email" id="" placeholder="Email">
+                </div>
+                <div class="form-contacto" >
+                    <textarea name="Mensaje" id="" cols="30" rows="10" placeholder="Ingresa tu mensaje"></textarea>
+                </div>
+                <div class="form-contacto" >
+                    <input type="submit" value="Enviar" class="boton-enviar">
+                </div>
+                <div class="form-contacto" >
+                    <input type="reset" value="Limpiar" class="boton-reset">
+                </div>
+            </form>
         </div>
     </section>
-
     <footer class="footer" >
         <div class="container" >
             <div class="filas">
