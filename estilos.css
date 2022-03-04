@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -15,6 +16,7 @@ body{
     width: 100%;
     top: 0;
     left: 0;
+    padding: 0;
 }
 
 .nav{
@@ -112,20 +114,10 @@ ul{
     color: white;
 }
 
-/* --------TIENDA----------- */
-
-.col{
-    background-color: coral;
-    border-color: darkblue;
-    height: 10rem;
-
-}
 
 /* --------FORMULARIO DE CONTACTO------ */
 
-.contacto{
-    background-color: rgb(211, 211, 247);
-}
+
 
 .formulario{
     background-color: orange;
@@ -170,3 +162,48 @@ ul{
     padding-bottom: 0;
 
 }
+
+/* ---------------GALERIA---------------- */
+
+
+
+
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+    padding: 0;
+}
+
+
+.columna-33{
+    width: 33%;
+    padding: 0;
+}
+.cuadrado-perfecto{
+    width: 100%;
+    padding-bottom: 100%;
+    position: relative;
+}
+
+.cuadrado-perfecto img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.cuadrado-perfecto img{
+    filter: grayscale(1);
+}
+
+.cuadrado-perfecto:hover img{
+    filter: grayscale(0);
+}
+
+
