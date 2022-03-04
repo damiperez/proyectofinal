@@ -6,7 +6,7 @@
 
 body{
     font-family: sans-serif;
-    padding: 10px 5px 0;
+    padding: 0;
 }
 
 .header{
@@ -110,6 +110,11 @@ ul{
     text-decoration: none;
 }
 
+.footer__col ul li{
+    font-size: 15px;
+    color: white;
+}
+
 .redes-sociales i {
     color: white;
 }
@@ -120,7 +125,7 @@ ul{
 
 
 .formulario{
-    background-color: orange;
+    background-color: rgba(255, 174, 0, 0.623);
     position: relative;
     display: inline-block;
     margin: 15px;
@@ -204,6 +209,23 @@ ul{
 
 .cuadrado-perfecto:hover img{
     filter: grayscale(0);
+}
+
+/* --------------NOSOTROS----------- */
+
+.sobre-nosotros{
+    width: 100%;
+    height: 75%;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.sobre-nosotros .conteniodo-nosotros img{
+    height: 40px;
+    width: 60px;
+    max-width: 100%;
 }
 
 
